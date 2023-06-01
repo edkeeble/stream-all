@@ -25,7 +25,7 @@ $ streamall /get-files ./my_music --pattern "*.mp3"
 
 Then download the file at `http://localhost:8001/get-files`.
 
-The CLI utilty supports a few arguments:
+The CLI utility supports a few arguments:
 
 `pattern`: A Glob pattern that files in the source directory must match in order to be included in the archive. Defaults to "\*".
 
