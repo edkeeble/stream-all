@@ -4,8 +4,8 @@ A utility/library for bundling all files matching a specified pattern and servin
 
 Supported source backends:
 
-[x] Local filesystem
-[] S3
+- [x] Local filesystem
+- [] S3
 
 ## Usage
 
@@ -14,7 +14,7 @@ Supported source backends:
 Stream All can be used as a command line utility, in cases where you just want to quickly make a large group of files available without going through trouble of setting up file sharing. In this case, simply install the package
 
 ```sh
-$ pip install stream-all[server]
+$ pip install https://github.com/edkeeble/stream-all/archive/refs/heads/main.zip#egg=stream-all[server]
 ```
 
 and run it
@@ -59,5 +59,5 @@ def service_route():
 
 ## Roadmap
 
-[ ] S3 Backend
-[ ] Allow passing in other stream-zip parameters, such as chunk size, compression level and compression type (ZIP_32, ZIP_64, etc)
+- [ ] S3 Backend
+- [ ] Allow passing in other stream-zip parameters, such as chunk size, compression level and compression type (ZIP_32, ZIP_64, etc)
