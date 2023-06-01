@@ -5,7 +5,7 @@ A utility/library for bundling all files matching a specified pattern and servin
 Supported source backends:
 
 - [x] Local filesystem
-- [] S3
+- [ ] S3
 
 ## Usage
 
